@@ -19,7 +19,9 @@ insert into manager values(7788,'Vikash',4000,0,48000,'12-Aug-82','clerk',50,'Bo
 ~~~
 # Q1) Update all the records of manager table by increasing 10% of their salary as bonus.
 # QUERY:
+~~~
 UPDATE manager SET salary = salary * 1.10;
+~~~
 # OUTPUT:
 ![272469703-eed9aa48-406b-413c-b4a6-6e4eb8662080](https://github.com/Selvakumar525/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/120643262/254905a5-2a1b-4546-8603-eff3523c1765)
 
