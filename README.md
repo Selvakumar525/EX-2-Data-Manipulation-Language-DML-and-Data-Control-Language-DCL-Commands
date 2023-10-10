@@ -25,7 +25,9 @@ UPDATE manager SET salary = salary * 1.10;
 
 # Q2) Delete the records from manager table where the salary less than 2750.
 # QUERY:
+~~~
 DELETE FROM manager WHERE salary < 2750;
+~~~
 # OUTPUT:
 ![272469973-4cdeb147-110c-45f0-86cd-38b9c66a9008](https://github.com/Selvakumar525/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/120643262/675f6d18-61f2-4781-9111-ee37d9c85a4d)
 
