@@ -31,7 +31,10 @@ DELETE FROM manager WHERE salary < 2750;
 
 # Q3) Display each name of the employee as “Name” and annual salary as “Annual Salary” (Note: Salary in MANAGER table is the monthly salary)
 # QUERY:
-~~~SELECT ename AS "Name", (salary * 12) + NVL(commission, 0) AS "Annual Salary" FROM manager;~~~
+~~~
+SELECT ename AS "Name", (salary * 12) + NVL(commission, 0) AS "Annual Salary" FROM manager;
+~~~
+
 # OUTPUT:
 ![272470189-b3997352-a906-46de-8865-dca069ac0c09](https://github.com/Selvakumar525/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/120643262/95741e43-9e16-44dd-9d68-87082b651866)
 
