@@ -141,3 +141,5 @@ SELECT designation, COUNT(*) AS "Number of Employees" FROM manager GROUP BY desi
 # OUTPUT:
 ![272471618-67126962-7842-46ac-9f75-9055fa584892](https://github.com/Selvakumar525/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/120643262/cb034570-1d8a-42db-a2ae-d0edbc99179d)
 
+# RESULT :
+Thus,manager database has been created and DML queries has been executed successfully using SQL.
